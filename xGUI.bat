@@ -1,7 +1,7 @@
 @echo off
 python --version > nul 2>&1
 if %errorlevel% neq 0 (
-    echo Python não está instalado. Por favor, instale o Python antes de continuar.
+    echo Python not found. Please install Python to proceed.
     pause
     exit /b
 )
